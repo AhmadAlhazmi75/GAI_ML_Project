@@ -56,6 +56,7 @@ st.markdown(
             background-color: var(--highlight) !important;
             box-shadow: 0 0 0 2px var(--primary-bg), 0 0 0 4px var(--highlight) !important;
         }
+      
     </style>
     """,
     unsafe_allow_html=True
@@ -89,3 +90,6 @@ if st.button("Recommend Movie"):
     with col5:
         st.text(names[4])
         st.image(posters[4], use_column_width=True)
+
+
+st.markdown('<a href="https://movie-magic-arm.vercel.app/" target="_blank" style="color: #FF176B;">Wanna generate a new movie?</a>', unsafe_allow_html=True)
